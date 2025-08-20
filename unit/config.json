@@ -1,0 +1,14 @@
+{
+  "listeners": {
+    "*:8006": { "pass": "applications/backend" }
+  },
+  "applications": {
+    "backend": {
+      "type": "python",
+      "path": "/app",
+      "module": "main",
+      "callable": "app"
+    }
+  }
+}
+

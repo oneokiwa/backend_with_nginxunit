@@ -1,0 +1,33 @@
+# Git & CI
+.git
+.gitignore
+.github
+
+# Python 캐시/빌드 산출물
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# 로그/임시
+*.log
+.cache/
+
+# 테스트/문서
+tests/
+docs/
+
+# 환경변수 파일
+.env
+*.env
+.env.*
+
+# 데이터(이미지에 미포함, 운영시에는 외부 마운트로만 사용)
+app/data/*.csv

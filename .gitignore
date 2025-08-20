@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# venv
+.venv/
+venv/
+
+# Env & secrets
+.env
+*.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Builds / caches
+dist/
+build/
+*.egg-info/
+.cache/
+
+# Tests (필요 없으면)
+.coverage
+htmlcov/
+pytest_cache/
